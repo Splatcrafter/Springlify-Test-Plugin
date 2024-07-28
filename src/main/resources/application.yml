@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: "jdbc:mariadb://localhost:3306/cbspring"
+    username: "spring"
+    password: "password"
+    driver-class-name: "org.mariadb.jdbc.Driver"
+  jpa:
+    hibernate:
+      ddl-auto: "update"
+    show-sql: true
+  profiles:
+    active: dev
+server:
+  address: "127.0.0.1"
+  port: 8081
+  compression:
+    enabled: true
+  http2:
+    enabled: true

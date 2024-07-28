@@ -1,0 +1,9 @@
+name: Springlify-Test
+version: '1.0.0'
+main: de.splatgames.springlify.testplugin.TestPlugin
+api-version: '1.20'
+prefix: Springlify-Test
+load: STARTUP
+authors: [ Erik Pförtner ]
+description: Splatgames.de Springlify Test Plugin
+website: https://splatgames.de/
