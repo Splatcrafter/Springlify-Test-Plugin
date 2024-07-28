@@ -1,4 +1,4 @@
-package de.splatgames.springlify.testplugin.domain;
+package de.splatgames.springlify.testplugin.domain.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
